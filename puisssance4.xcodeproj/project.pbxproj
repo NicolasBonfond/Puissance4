@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83042A5E27D6747B00E68FEA /* puissance4.c in Sources */ = {isa = PBXBuildFile; fileRef = 83042A5D27D6747B00E68FEA /* puissance4.c */; };
 		8338B37827D3CA4000462AC9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8338B37727D3CA4000462AC9 /* main.c */; };
+		8338B38027D3F96D00462AC9 /* affichage.c in Sources */ = {isa = PBXBuildFile; fileRef = 8338B37F27D3F96D00462AC9 /* affichage.c */; };
+		8372079D27D9030C00CE5D2A /* iswinning.c in Sources */ = {isa = PBXBuildFile; fileRef = 8372079C27D9030C00CE5D2A /* iswinning.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83042A5D27D6747B00E68FEA /* puissance4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = puissance4.c; sourceTree = "<group>"; };
 		8338B37427D3CA4000462AC9 /* puisssance4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = puisssance4; sourceTree = BUILT_PRODUCTS_DIR; };
 		8338B37727D3CA4000462AC9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8338B37E27D3F96D00462AC9 /* affichage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = affichage.h; sourceTree = "<group>"; };
+		8338B37F27D3F96D00462AC9 /* affichage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = affichage.c; sourceTree = "<group>"; };
+		8372079927D902AE00CE5D2A /* puissance4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = puissance4.h; sourceTree = "<group>"; };
+		8372079B27D9030C00CE5D2A /* iswinning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iswinning.h; sourceTree = "<group>"; };
+		8372079C27D9030C00CE5D2A /* iswinning.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iswinning.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		8338B37627D3CA4000462AC9 /* puisssance4 */ = {
 			isa = PBXGroup;
 			children = (
+				8372079C27D9030C00CE5D2A /* iswinning.c */,
+				8372079B27D9030C00CE5D2A /* iswinning.h */,
+				8372079927D902AE00CE5D2A /* puissance4.h */,
 				8338B37727D3CA4000462AC9 /* main.c */,
+				83042A5D27D6747B00E68FEA /* puissance4.c */,
+				8338B37E27D3F96D00462AC9 /* affichage.h */,
+				8338B37F27D3F96D00462AC9 /* affichage.c */,
 			);
 			path = puisssance4;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8338B38027D3F96D00462AC9 /* affichage.c in Sources */,
 				8338B37827D3CA4000462AC9 /* main.c in Sources */,
+				8372079D27D9030C00CE5D2A /* iswinning.c in Sources */,
+				83042A5E27D6747B00E68FEA /* puissance4.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
